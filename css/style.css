@@ -1,0 +1,23 @@
+header{
+    background: url('../img/BG.png');
+    height: 500px;
+}
+.navbar-header button{
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.navbar-header button span{
+    background-color: black;
+}
+.nav-pills .menu-item{
+    margin-left:0;
+}
+.nav-pills .menu-item a{
+    font-size: 18px;
+    color: white;
+}
+.nav-pills li a:hover{
+   background-color: transparent;
+   color: blue;
+}
