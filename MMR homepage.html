@@ -64,12 +64,12 @@
         <!--end header-->
         <!--main-->
         <section class="container" id="main">
-            <div class="container row services">
+            <div class="container services">
                 <a href="#"><img src="img/services.png" alt="services" title="services"></a>
             </div>
-            <div class="container" style="width: 104%">
+            <div class="container-fluid hidden-xs" style="width: 104%; display: flex">
                 <!--lead generation-->
-                <div class="lead col-lg-3 col-md-3 col-sm-3">
+                <div class="item lead col-lg-3 col-md-3 col-sm-3">
                     <p>LEAD GENERATION</p>
                     <div class="orange-line" style="margin-top: -5px"><img src="img/icons/orange/line.png"></div>
                     <div class="text-services col-lg-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
@@ -80,7 +80,7 @@
                     </div>
                 </div>
                 <!--email marketing-->
-                <div class="email col-lg-3 col-md-3 col-sm-3">
+                <div class="item email col-lg-3 col-md-3 col-sm-3">
                     <p>EMAIL MARKETING</p>
                     <div class="orange-line"><img src="img/icons/orange/line.png"></div>
                     <div class="text-services col-lg-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
@@ -91,7 +91,7 @@
                     </div>
                 </div>
                 <!--content management-->
-                <div class="content col-lg-3 col-md-3 col-sm-3">
+                <div class="item content col-lg-3 col-md-3 col-sm-3">
                     <p>CONTENT MANAGEMENT</p>
                     <div class="orange-line"><img src="img/icons/orange/line.png"></div>
                     <div class="text-services col-lg-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
@@ -102,7 +102,7 @@
                     </div>
                 </div>
                 <!--social media marketing-->
-                <div class="social col-lg-3 col-md-3 col-sm-3">
+                <div class="item social col-lg-3 col-md-3 col-sm-3">
                     <p>SOCIAL MEDIA MARKETING</p>
                     <div class="orange-line"><img src="img/icons/orange/line.png"></div>
                     <div class="text-services col-lg-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
@@ -123,15 +123,60 @@
             <div class="img-advertisement"></div>
         </section>
         <!--main3-->
-        <section >
+        <section>
             <div class="case-study">
                 <div class="container">
                     <p class="title-case-study">CASE STUDIES</p>
                     <div class="orange-line"><img src="img/icons/white/line.png"></div>
                 </div>
-                <div class="row">
-                    <img class="col-lg-4" src="img/Mac.png" alt="" title="">
+                <!--desktop-->
+                <div class="Mac row hidden-xs visible-lg visible-md " style="height: 500px">
+                    <div class="col-lg-6 ">
+                        <img src="img/Mac.png" alt="Mac" title="Mac">
+                    </div>
+                    <div class="col-lg-6 ">
+                        <div class="container" style="width: 50%">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                labore et dolore magna.
+                                <br> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                                ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                                dolore eu fugiat nulla.</p>
+                            <div>
+                                <a class="view-case" href="#">
+                                    <img src="img/components/button/white 2.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+                <!--mobile-->
+                <div class="Mac row visible-xs hidden-lg visible-sm" style="height: 500px">
+                    <div class="col-xs-12">
+                        <div class="container" style="width: 50%">
+                            <p style="text-align: center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                labore et dolore magna.
+                                <br> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                                ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                                dolore eu fugiat nulla.</p>
+
+                            <a class="view-case" href="#">
+                                <img src="img/components/button/white 2.png" alt="">
+                            </a>
+
+                        </div>
+                    </div>
+                    <div class="col-xs-12">
+                        <img class="col-xs-12" src="img/Mac.png" alt="Mac" title="Mac">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--main4-->
+        <br><br>
+        <section class="container" style="padding-top: 3%">
+            <div class="container row ">
+                <p class="adv">THE EDGE THAT WE GIVE YOU</p>
+                <div class="orange-line"><img src="img/icons/orange/line.png"></div>
             </div>
         </section>
     </div>

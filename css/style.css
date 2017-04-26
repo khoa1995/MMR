@@ -221,7 +221,7 @@ header p{
     src: url('../font/GOTHAMRND-BOLD.OTF');
     font-weight: bold;
 }
-#main2 .adv{
+.adv{
     margin-top: 31px;
     font-family: GothamRounded;
     text-align: center;
@@ -244,4 +244,28 @@ header p{
     font-size: 32px;
     color: white;
 }
+.case-study .Mac{
+    margin-top:3%;
+}
+@media only screen and (max-width: 768px){
+    .view-case img{
+        margin-left: -42%;
+    }
+}
+.Mac p{
+    color: white;
+}
+/*.view-case{
+    background-repeat: no-repeat;
+    z-index: 2;
+    position: relative;
+    background-image:
+    url('../img/components/button/white 2.png'); 
+    height: 20%;
+    background-size: 100% 52px;
+    float: right;
+    width: 56%;
+    background-position: 50% 50%;
+}*/
+
 
