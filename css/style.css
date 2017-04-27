@@ -5,8 +5,12 @@ header {
 
 .navbar-header button {
     background: transparent;
-    border: 1px solid black;
-    border-radius: 3px;
+    border-color: transparent;
+    
+}
+.navbar-header button span{
+    border:2p solid white;
+    
 }
 
 .navbar-header button span {
@@ -28,7 +32,7 @@ header {
 }
 
 .navbar-header .navbar-brand {
-    padding-left: 50%;
+    /*padding-left: 50%;*/
 }
 
 header p {
@@ -479,6 +483,17 @@ footer {
 	letter-spacing: normal;
 	text-align: center;
 	color: #757575;
+}
+@media only screen and (max-width: 1000px) and (min-width:500px) {
+    #footer{
+        margin-left:25%;
+    }
+    .menu{
+        margin-left:13%;
+    }
+    .brand-footer{
+        margin-left: 24%;
+    }
 }
 /*.view-case{
     background-repeat: no-repeat;

@@ -27,33 +27,37 @@
         <!--header-->
         <header>
             <!--menu-->
-            <div class="menu-header">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-target="#myNavbar" data-toggle="collapse">
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
+            <section class="container">
+                <div class="menu-header row">
+                    <div class="navbar-header col-md-4">
+                        <!--logo-->
+                        <a class="navbar-brand "><img src="img/Logo.png"></a>
+                        <button type="button" class="navbar-toggle navbar-right " data-target="#myNavbar" data-toggle="collapse">
+                            <span class="icon-bar" style="border: 2px solid white"></span>
+                            <span class="icon-bar" style="border: 2px solid white"></span>
+                            <span class="icon-bar" style="border: 2px solid white"></span>
                         </button>
-                    <!--logo-->
-                    <a class="navbar-brand"><img src="img/Logo.png"></a>
-                </div>
-                <!--navbar-->
-                <div class="collapse navbar-collapse" id="myNavbar">
-                    <nav class="nav navbar-nav navbar-right" role="navigation">
-
-                        <ul class="nav nav-pills col-lg-12">
-                            <li class="menu-item col-xs-12 col-lg-2" id="menu-item"><a href="#">Services</a></li>
-                            <li class="menu-item col-xs-12 col-lg-2"><a href="#" style="padding-right:0;
+                        
+                    </div>
+                    <!--navbar-->
+                    <div class="collapse navbar-collapse navbar-right col-md-8 " id="myNavbar">
+                        <nav class="nav navbar-nav " role="navigation">
+                            <div class="menu-header-left">
+                                <ul class="nav nav-pills main-nav main-nav-left">
+                                    <li class="menu-item  col-lg-2 col-md-2 col-sm-2 col-xs-12" id="menu-item"><a href="#">Services</a></li>
+                                    <li class="menu-item  col-lg-2 col-md-2 col-sm-2 col-xs-12"><a href="#" style="padding-right:0;
     min-width: 105px;">Our Clients</a></li>
-                            <li class="menu-item col-xs-12 col-lg-2"><a href="#">Careers</a></li>
-                            <li class="menu-item col-xs-12 col-lg-2"><a href="#">Events</a></li>
-                            <li class="menu-item col-xs-12 col-lg-2"><a href="#">Blog</a></li>
-                            <li class="menu-item col-xs-12 col-lg-2"><a href="#">About</a></li>
-                        </ul>
+                                    <li class="menu-item  col-lg-2 col-md-2 col-sm-2 col-xs-12"><a href="#">Careers</a></li>
+                                    <li class="menu-item  col-lg-2 col-md-2 col-sm-2 col-xs-12"><a href="#">Events</a></li>
+                                    <li class="menu-item  col-lg-2 col-md-2 col-sm-2 col-xs-12"><a href="#">Blog</a></li>
+                                    <li class="menu-item  col-lg-2 col-md-2 col-sm-2 col-xs-12"><a href="#">About</a></li>
+                                </ul>
+                            </div>
 
-                    </nav>
+                        </nav>
+                    </div>
                 </div>
-            </div>
+            </section>
             <div class="container col-xs-12">
                 <p class="slogan"> TIRED OF RELYING ON WORD OF MOUTH? USE TECH TO DRIVE YOUR TECH BUSINESS.</p>
             </div>
@@ -67,7 +71,7 @@
             <div class="container services">
                 <a href="#"><img src="img/services.png" alt="services" title="services"></a>
             </div>
-            <div class="container-fluid hidden-xs" style="width: 104%; display: flex">
+            <div class="container-fluid hidden-xs hidden-sm " style="width: 104%; display: flex">
                 <!--lead generation-->
                 <div class="item lead col-lg-3 col-md-3 col-sm-3">
                     <p>LEAD GENERATION</p>
@@ -173,7 +177,7 @@
         </section>
         <!--main4-->
         <br><br>
-        <section class="main4" style="padding-top: 3%">
+        <section class="main4 hidden-sm hidden-xs" style="padding-top: 3%">
             <div class="container ">
                 <p class="adv">THE EDGE THAT WE GIVE YOU</p>
                 <div class="orange-line"><img src="img/icons/orange/line.png"></div>
@@ -190,7 +194,7 @@
         </section>
         <!--main5-->
         <section>
-            <div class="row">
+            <div class="row hidden-xs hidden-sm">
                 <div class="self col-lg-6">
                     <div class="block-self">
                         <a class="self-educate" href="#">Self Education</a>
@@ -208,10 +212,10 @@
         <!--footer-->
         <footer class="container">
             <div class="row" id="footer">
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-12 col-xs-12">
                     <a class="brand-footer" href="">MRR MEDIA</a>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-sm-12 col-xs-12">
                     <div class="menu row">
                         <a href="" class="col-lg-4">Services</a>
                         <a href="" class="col-lg-4">Careers</a>
@@ -223,7 +227,7 @@
                         <a href="" class="col-lg-4">About</a>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-sm-12 col-xs-12">
                     <div class="social-media" style="display: flex">
                         <img class="flex-item" src="img/fb.png">
                         <img class="flex-item" src="img/linkedln.png">
@@ -232,7 +236,7 @@
                 </div>
             </div>
             <div class="copyright col-lg-12">
-                 Copyright &copy; 2017 ConceptualCode. All rights reserved.
+                Copyright &copy; 2017 ConceptualCode. All rights reserved.
             </div>
         </footer>
     </div>
