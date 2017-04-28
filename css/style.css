@@ -6,11 +6,10 @@ header {
 .navbar-header button {
     background: transparent;
     border-color: transparent;
-    
 }
-.navbar-header button span{
-    border:2p solid white;
-    
+
+.navbar-header button span {
+    border: 2p solid white;
 }
 
 .navbar-header button span {
@@ -70,10 +69,96 @@ header p {
 
 /*lead generation*/
 
-.lead {
-    background-repeat: no-repeat;
-    height: 390px;
-    background-image: url('../img/lead-generation.png');
+@media only screen and (min-width: 800px) {
+    .lead {
+        background-repeat: no-repeat;
+        height: 390px;
+        background-image: url('../img/lead-generation.png');
+    }
+    .email {
+        margin: 0 9px 0 -20px;
+        background-repeat: no-repeat;
+        height: 390px;
+        background-image: url('../img/email.png');
+    }
+    .content {
+        background-repeat: no-repeat;
+        height: 390px;
+        background-image: url('../img/content management.png');
+    }
+    .social {
+        margin: 0 9px 0 -20px;
+        background-repeat: no-repeat;
+        height: 390px;
+        background-image: url('../img/social-media.png');
+    }
+    .lead:hover {
+        width: 23%;
+        background-repeat: no-repeat;
+        background-image: linear-gradient(180deg, rgba(179, 124, 168, .33), rgba(179, 124, 168, .33)), url('../img/lead-generation.png');
+        box-shadow: 0 5px 10px 0 rgba(10, 10, 10, 0.25);
+        transform: scale3d(1.07, 1.07, 1.07);
+        background-color: transparent;
+        color: transparent;
+        margin-right: 25px;
+    }
+    .lead:hover p {
+        color: white;
+    }
+    .lead:hover .text-services {
+        color: white;
+    }
+    .email:hover {
+        width: 23%;
+        background-repeat: no-repeat;
+        background-image: linear-gradient(180deg, rgba(179, 124, 168, .33), rgba(179, 124, 168, .33)), url('../img/email.png');
+        box-shadow: 0 5px 10px 0 rgba(10, 10, 10, 0.25);
+        transform: scale3d(1.07, 1.07, 1.07);
+        background-color: transparent;
+        color: transparent;
+        margin-right: 25px;
+        margin-left: 0px;
+    }
+    .email:hover p {
+        color: white;
+    }
+    .email:hover .text-services {
+        color: white;
+    }
+    .social:hover {
+        width: 22%;
+        padding-right: 0;
+        background-repeat: no-repeat;
+        background-image: linear-gradient(180deg, rgba(179, 124, 168, .33), rgba(179, 124, 168, .33)), url('../img/social-media.png');
+        box-shadow: 0 5px 10px 0 rgba(10, 10, 10, 0.25);
+        transform: scale3d(1.07, 1.07, 1.07);
+        background-color: transparent;
+        color: transparent;
+        margin-left: 0px;
+    }
+    .social:hover p {
+        color: white;
+    }
+    .social:hover .text-services {
+        color: white;
+    }
+    .content:hover {
+        width: 23%;
+        background-repeat: no-repeat;
+        background-image: linear-gradient(180deg, rgba(179, 124, 168, .33), rgba(179, 124, 168, .33)), url('../img/content management.png');
+        box-shadow: 0 5px 10px 0 rgba(10, 10, 10, 0.25);
+        transform: scale3d(1.07, 1.07, 1.07);
+        background-color: transparent;
+        color: transparent;
+        margin-right: 36px;
+        margin-left: 9px;
+    }
+    .content:hover p {
+        color: white;
+    }
+    .content:hover .text-services {
+        color: white;
+    }
 }
 
 .lead p {
@@ -101,26 +186,8 @@ header p {
     text-align: center;
 }
 
-.lead:hover {
-    width: 23%;
-    background-repeat: no-repeat;
-    background-image: linear-gradient(180deg, rgba(179, 124, 168, .33), rgba(179, 124, 168, .33)), url('../img/lead-generation.png');
-    box-shadow: 0 5px 10px 0 rgba(10, 10, 10, 0.25);
-    transform: scale3d(1.07, 1.07, 1.07);
-    background-color: transparent;
-    color: transparent;
-    margin-right: 25px;
-}
-
-.lead:hover p {
-    color: white;
-}
-
-.lead:hover .text-services {
-    color: white;
-}
-
 .learn-more {
+    padding: auto 3px auto 3px;
     height: 63px;
     width: 100%;
     background: url('../img/components/button/white 1.png') no-repeat transparent;
@@ -132,14 +199,23 @@ header p {
 }
 
 
-/*email marketing*/
+/*slider*/
 
-.email {
-    margin: 0 9px 0 -20px;
-    background-repeat: no-repeat;
-    height: 390px;
-    background-image: url('../img/email.png');
+@media only screen and (max-width: 768px) {
+    .learn-more {
+        left: 43px;
+        height: 63px;
+        width: 100%;
+        background: url('../img/components/button/white 1.png') no-repeat transparent;
+    }
+    .learn-more:hover {
+        right: 12px;
+        background-image: url('../img/components/button/orange 1.png');
+    }
 }
+
+
+/*email marketing*/
 
 .email p {
     margin-top: 40px;
@@ -152,34 +228,8 @@ header p {
     color: #757575;
 }
 
-.email:hover {
-    width: 23%;
-    background-repeat: no-repeat;
-    background-image: linear-gradient(180deg, rgba(179, 124, 168, .33), rgba(179, 124, 168, .33)), url('../img/email.png');
-    box-shadow: 0 5px 10px 0 rgba(10, 10, 10, 0.25);
-    transform: scale3d(1.07, 1.07, 1.07);
-    background-color: transparent;
-    color: transparent;
-    margin-right: 25px;
-    margin-left: 0px;
-}
-
-.email:hover p {
-    color: white;
-}
-
-.email:hover .text-services {
-    color: white;
-}
-
 
 /*content management*/
-
-.content {
-    background-repeat: no-repeat;
-    height: 390px;
-    background-image: url('../img/content management.png');
-}
 
 .content p {
     margin-top: 40px;
@@ -192,35 +242,8 @@ header p {
     color: #757575;
 }
 
-.content:hover {
-    width: 23%;
-    background-repeat: no-repeat;
-    background-image: linear-gradient(180deg, rgba(179, 124, 168, .33), rgba(179, 124, 168, .33)), url('../img/content management.png');
-    box-shadow: 0 5px 10px 0 rgba(10, 10, 10, 0.25);
-    transform: scale3d(1.07, 1.07, 1.07);
-    background-color: transparent;
-    color: transparent;
-    margin-right: 36px;
-    margin-left: 9px;
-}
-
-.content:hover p {
-    color: white;
-}
-
-.content:hover .text-services {
-    color: white;
-}
-
 
 /*social media marketing*/
-
-.social {
-    margin: 0 9px 0 -20px;
-    background-repeat: no-repeat;
-    height: 390px;
-    background-image: url('../img/social-media.png');
-}
 
 .social p {
     margin-top: 40px;
@@ -231,26 +254,6 @@ header p {
     font-weight: bold;
     text-align: center;
     color: #757575;
-}
-
-.social:hover {
-    width: 22%;
-    padding-right: 0;
-    background-repeat: no-repeat;
-    background-image: linear-gradient(180deg, rgba(179, 124, 168, .33), rgba(179, 124, 168, .33)), url('../img/social-media.png');
-    box-shadow: 0 5px 10px 0 rgba(10, 10, 10, 0.25);
-    transform: scale3d(1.07, 1.07, 1.07);
-    background-color: transparent;
-    color: transparent;
-    margin-left: 0px;
-}
-
-.social:hover p {
-    color: white;
-}
-
-.social:hover .text-services {
-    color: white;
 }
 
 #main2 {
@@ -297,6 +300,21 @@ header p {
 @media only screen and (max-width: 768px) {
     .view-case img {
         margin-left: -42%;
+    }
+    .self-educate {
+        padding-left: 16%;
+        padding-right: 10%;
+        text-align: center;
+    }
+    .self-educate2 {
+        margin-left: 60px;
+    }
+    .self img {
+        position: absolute;
+    }
+    .talk-mobile img{
+        transform: rotate(90deg);
+        
     }
 }
 
@@ -465,36 +483,59 @@ footer {
     color: #757575;
     text-decoration: none;
 }
-.flex-item{
-    margin:10px;
+
+.flex-item {
+    margin: 10px;
     cursor: pointer;
 }
-.social-media{
+
+.social-media {
     margin: auto 25% auto 25%;
 }
-.copyright{
-    margin-top:5%;
-	font-family: GothamRounded-Book;
-	font-size: 16px;
-	font-weight: normal;
-	font-style: normal;
-	font-stretch: normal;
-	line-height: normal;
-	letter-spacing: normal;
-	text-align: center;
-	color: #757575;
+
+.copyright {
+    margin-top: 5%;
+    font-family: GothamRounded-Book;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #757575;
 }
-@media only screen and (max-width: 1000px) and (min-width:500px) {
-    #footer{
-        margin-left:25%;
+
+@media only screen and (max-width: 1000px) and (min-width:100px) {
+    .menu {
+        padding-left: 13%;
     }
-    .menu{
-        margin-left:13%;
-    }
-    .brand-footer{
-        margin-left: 24%;
+    .brand-footer {
+        padding-left: 24%;
     }
 }
+
+.bullet li {
+    background-color: rgba(247, 136, 47, 0.3);
+}
+
+.bullet li:hover {
+    box-shadow: 0 0 10px 0 #f7882f;
+    border: solid 1px #f7882f;
+    background-color: #f7882f;
+}
+
+.bullet .active {
+    box-shadow: 0 0 10px 0 #f7882f;
+    border: solid 1px #f7882f;
+    background-color: #f7882f;
+}
+
+.bullet {
+    top: 100%;
+}
+
+
 /*.view-case{
     background-repeat: no-repeat;
     z-index: 2;
