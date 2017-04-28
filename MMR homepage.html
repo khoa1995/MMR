@@ -119,7 +119,7 @@
                 </div>
             </div>
             <!--slider mobile-->
-            <div class="container-fluid visible-xs visible-md">
+            <div class="container-fluid visible-xs hidden-md hidden-lg visible-sm">
                 <div class="carousel slide" data-ride="carousel" id="myCarousel">
                     <!--Indicators-->
                     <ol class="carousel-indicators bullet">
@@ -215,10 +215,10 @@
                 </div>
                 <!--desktop-->
                 <div class="Mac row hidden-xs visible-lg visible-md " style="height: 500px">
-                    <div class="col-lg-6 ">
+                    <div class="col-lg-6 col-md-6 ">
                         <img src="img/Mac.png" alt="Mac" title="Mac">
                     </div>
-                    <div class="col-lg-6 ">
+                    <div class="col-lg-6 col-md-6">
                         <div class="container" style="width: 50%">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                                 labore et dolore magna.
@@ -310,7 +310,7 @@
         <!--main5-->
         <section>
             <div class="row hidden-xs hidden-sm visible-md visible-lg">
-                <div class="self col-lg-6">
+                <div class="self col-lg-6 col-md-6">
                     <div class="block-self">
                         <a class="self-educate" href="#">Self Education</a>
                         <a class="self-educate2" href="#">Learn more with our free e-books</a>
@@ -318,24 +318,29 @@
                     </div>
                     <img src="img/self-education.png">
                 </div>
-                <div class="talk col-lg-6">
+                <div class="talk col-lg-6 col-md-6">
                     <button><span>Let's Talk</span></button>
                     <img src="img/talk.png" alt="">
                 </div>
             </div>
             <!--mobile-->
-            <div class="row visible-xs visible-sm hidden-md hidden-lg" style="padding-top:25%">
-                <div class="self col-xs-12">
-                    <div class=" talk-mobile">
+            <div class=" visible-xs visible-sm hidden-md hidden-lg" style="padding-top:25%;display: flex">
+                <div class="self col-xs-12" style="height: 1000px;">
+                    <div class=" talk-mobile" >
                         <a class="self-educate" href="#">Self Education</a>
                         <a class="self-educate2" href="#">Learn more with our free e-books</a>
                         <span>
-                            <img src="img/Arrow.png" style="position: relative; z-index: 1000;width: 50%;margin-top: 15%">
+                            <img src="img/arrow-mobile.png" style="position: relative; z-index: 1000;margin-top: 15%;left:25%;width: 15%">
                         </span>
                     </div>
                     <img src="img/self-educate-mobile.png">
                 </div>
-                <div></div>
+              
+                    <div class=" talk row" style="display: inline-block">
+                        <button class="button-talk"><span>Let's Talk</span></button>
+                    <img src="img/talk.png" alt="" style="width: 100%;height: 600px">
+                    </div>
+               
             </div>
         </section>
         <!--end main-->
