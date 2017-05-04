@@ -51,7 +51,7 @@ header p {
 }
 
 .rectangle {
-    margin-left: 33%;
+    margin-left: 35%;
     margin-top: 5%;
     width: 320px;
     height: 52px;
@@ -69,27 +69,28 @@ header p {
 
 /*lead generation*/
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 1000px) {
     .lead {
+        margin-bottom: 0;
         background-repeat: no-repeat;
-        height: 390px;
+        height: auto;
         background-image: url('../img/lead-generation.png');
     }
     .email {
         margin: 0 9px 0 -20px;
         background-repeat: no-repeat;
-        height: 390px;
+        height: auto;
         background-image: url('../img/email.png');
     }
     .content {
         background-repeat: no-repeat;
-        height: 390px;
+        height: auto;
         background-image: url('../img/content management.png');
     }
     .social {
         margin: 0 9px 0 -20px;
         background-repeat: no-repeat;
-        height: 390px;
+        height: auto;
         background-image: url('../img/social-media.png');
     }
     .lead:hover {
@@ -212,6 +213,9 @@ header p {
         right: 12px;
         background-image: url('../img/components/button/orange 1.png');
     }
+      #main2{
+        margin-top:5%;
+    }
 }
 
 
@@ -255,8 +259,8 @@ header p {
     text-align: center;
     color: #757575;
 }
-
 #main2 {
+   
     border-top-style: dotted;
     border-top-color: #757575;
 }
@@ -302,7 +306,8 @@ header p {
         margin-left: -42%;
     }
     .self img {
-        height: 53%;
+        left:0;
+        height: 58%;
         width: 96%;
         z-index: 2;
         position: absolute;
@@ -371,7 +376,17 @@ header p {
     font-size: 24px;
     text-align: center;
 }
-
+#cheaper p{
+    position: absolute;
+    top:45%;
+    color: white;
+    font-weight: 300;
+    position: absolute;
+    font-size: 24px;
+    text-align: center;
+    width: 70%;
+    left:18%;
+}
 .main4 .image p:hover {
     top: 40%;
     text-align: center;
@@ -382,7 +397,7 @@ header p {
 }
 
 .self img {
-    /*width: 113%;*/
+    width: 113%;
     z-index: 2;
     position: absolute;
 }
@@ -563,7 +578,9 @@ footer {
 .bullet {
     top: 100%;
 }
-
+#myCarousel{
+    margin-top:5%;
+}
 
 /*.view-case{
     background-repeat: no-repeat;

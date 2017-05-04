@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link rel="stylesheet" href="css/skeleton.css">
 </head>
 
 <body>
@@ -29,7 +30,7 @@
             <!--menu-->
             <section class="container">
                 <div class="menu-header row">
-                    <div class="navbar-header col-md-4">
+                    <div class="navbar-header four columns">
                         <!--logo-->
                         <a class="navbar-brand "><img src="img/Logo.png"></a>
                         <button type="button" class="navbar-toggle navbar-right " data-target="#myNavbar" data-toggle="collapse">
@@ -40,7 +41,7 @@
 
                     </div>
                     <!--navbar-->
-                    <div class="collapse navbar-collapse navbar-right col-md-8 " id="myNavbar">
+                    <div class="collapse navbar-collapse navbar-right eight columns" id="myNavbar">
                         <nav class="nav navbar-nav " role="navigation">
                             <div class="menu-header-left">
                                 <ul class="nav nav-pills main-nav main-nav-left">
@@ -67,12 +68,12 @@
         </header>
         <!--end header-->
         <!--main-->
-        <section class="container" id="main">
-            <div class="container services">
+        <section class="container hidden-xs hidden-sm visible-md visible-lg" id="main">
+            <div class="container services" >
                 <a href="#"><img src="img/services.png" alt="services" title="services"></a>
             </div>
             <!--desktop-->
-            <div class="container-fluid hidden-xs hidden-sm " style="width: 104%; display: flex">
+            <div class="container-fluid " style="width: 104%; display: flex">
                 <!--lead generation-->
                 <div class="item lead col-lg-3 col-md-3 col-sm-3">
                     <p>LEAD GENERATION</p>
@@ -118,8 +119,13 @@
                     </div>
                 </div>
             </div>
-            <!--slider mobile-->
-            <div class="container-fluid visible-xs hidden-md hidden-lg visible-sm">
+        </section>
+        <!--slider mobile-->
+        <section class="visible-xs hidden-md hidden-lg visible-sm">
+            <div class="container services" style="text-align: center; margin-top: 5%">
+                <a href="#"><img src="img/services.png" alt="services" title="services"></a>
+            </div>
+            <div class="container-fluid ">
                 <div class="carousel slide" data-ride="carousel" id="myCarousel">
                     <!--Indicators-->
                     <ol class="carousel-indicators bullet">
@@ -130,24 +136,24 @@
                     </ol>
                     <div class="carousel-inner" role="listbox">
                         <div class="item active">
-                            <div class="container-fluid lead" style="position: absolute">
+                            <div class="container lead" style="position: absolute; left:10%">
                                 <p>LEAD GENERATION</p>
                                 <div class="orange-line" style="margin-top: -5px"><img src="img/icons/orange/line.png"></div>
-                                <div class="text-services col-lg-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                <div class="text-services">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
                                     ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                                     ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur
                                     adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                                     enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
                                     commodo consequat</div>
 
-                                <div class="learn-more col-lg-12"></div>
+                                <div class="learn-more " style="margin-left:15%"></div>
 
                             </div>
-                            <img src="img/lead-generation.png" width="100%" height="100px">
+                            <img src="img/lead-generation.png" width="100%">
                         </div>
                         <div class="item">
-                            <div class="container-fluid email" style="position: absolute">
-                                <p>LEAD GENERATION</p>
+                            <div class="container email" style="position: absolute; left:10%">
+                                <p>EMAIL MARKETING</p>
                                 <div class="orange-line" style="margin-top: -5px"><img src="img/icons/orange/line.png"></div>
                                 <div class="text-services col-lg-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
                                     ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
@@ -156,14 +162,14 @@
                                     enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
                                     commodo consequat</div>
 
-                                <div class="learn-more col-lg-12"></div>
+                                <div class="learn-more" style="margin-left:15%"></div>
 
                             </div>
-                            <img src="img/email.png" width="100%" height="100px">
+                            <img src="img/email.png" width="100%">
                         </div>
                         <div class="item">
-                            <div class="container-fluid content" style="position: absolute">
-                                <p>LEAD GENERATION</p>
+                            <div class="container content" style="position: absolute; left:10%">
+                                <p>CONTENT MANAGEMENT</p>
                                 <div class="orange-line" style="margin-top: -5px"><img src="img/icons/orange/line.png"></div>
                                 <div class="text-services col-lg-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
                                     ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
@@ -172,14 +178,14 @@
                                     enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
                                     commodo consequat</div>
 
-                                <div class="learn-more col-lg-12"></div>
+                                <div class="learn-more" style="margin-left:15%"></div>
 
                             </div>
-                            <img src="img/content management.png" width="100%" height="100px">
+                            <img src="img/content management.png" width="100%">
                         </div>
                         <div class="item">
-                            <div class="container-fluid social" style="position: absolute">
-                                <p>LEAD GENERATION</p>
+                            <div class="container social" style="position: absolute; left:10%">
+                                <p>SOCIAL MEDIA MARKETING</p>
                                 <div class="orange-line" style="margin-top: -5px"><img src="img/icons/orange/line.png"></div>
                                 <div class="text-services col-lg-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
                                     ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
@@ -188,10 +194,10 @@
                                     enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
                                     commodo consequat</div>
 
-                                <div class="learn-more col-lg-12"></div>
+                                <div class="learn-more" style="margin-left:15%"></div>
 
                             </div>
-                            <img src="img/social-media.png" width="100%" height="100px">
+                            <img src="img/social-media.png" width="100%">
                         </div>
                     </div>
 
@@ -282,14 +288,15 @@
                     <li data-target="#myCarousel" data-slide-to="2"></li>
                     <li data-target="#myCarousel" data-slide-to="3"></li>
                 </ol>
-                <div class="carousel-inner" role="listbox">
+                <div class="carousel-inner " role="listbox">
                     <div class="item active">
                         <img src="img/img1.png" width="100%" height="100px">
                     </div>
                     <div class="item">
                         <img src="img/img2.png" width="100%" height="100px">
                     </div>
-                    <div class="item">
+                    <div class="item" id="cheaper">
+                        <p>CHEAPER THAN HIRING IN-HOUSE</p>
                         <img src="img/img3.png" width="100%" height="100px">
                     </div>
                     <div class="item">
@@ -326,7 +333,7 @@
             <!--mobile-->
             <div class=" visible-xs visible-sm hidden-md hidden-lg" style="padding-top:25%;display: flex">
                 <div class="self col-xs-12" style="height: 1000px;">
-                    <div class=" talk-mobile" >
+                    <div class=" talk-mobile">
                         <a class="self-educate" href="#">Self Education</a>
                         <a class="self-educate2" href="#">Learn more with our free e-books</a>
                         <span>
@@ -335,12 +342,12 @@
                     </div>
                     <img src="img/self-educate-mobile.png">
                 </div>
-              
-                    <div class=" talk row" style="display: inline-block">
-                        <button class="button-talk"><span>Let's Talk</span></button>
+
+                <div class=" talk row" style="display: inline-block">
+                    <button class="button-talk"><span>Let's Talk</span></button>
                     <img src="img/talk.png" alt="" style="width: 100%;height: 600px">
-                    </div>
-               
+                </div>
+
             </div>
         </section>
         <!--end main-->
